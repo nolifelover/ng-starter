@@ -14,6 +14,18 @@ export class NavbarComponent implements OnInit {
     {
       name: "Google",
       link: "http://google.co.th"
+    },
+    {
+      name: "Drop down",
+      id: "xxx",
+      link: "http://google.co.th",
+      menus: [{
+        name: "Action",
+        link: "#"
+      },{
+        name: "Another action",
+        link: "#"
+      }]
     }
   ]
   constructor() { }
