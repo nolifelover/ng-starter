@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Ng starter';
+  x = ['a','b'];
+  show = false;
+
+  debugx(event){
+    let val = event.target.value
+    this.title = val
+    //console.log(event.target.value);
+  }
 }
