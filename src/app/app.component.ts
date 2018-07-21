@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Ng starter';
   x = ['a','b'];
+
+  debugx(event:KeyboardEvent){
+    console.log(event.key);
+  }
 }
