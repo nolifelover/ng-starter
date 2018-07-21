@@ -12,7 +12,7 @@ export class FeatureComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.http.get("http://www.mocky.io/v2/5b52f5322f0000fb0a3bb672?mocky-delay=2000ms").subscribe((data:any)=>{
+    this.http.get("https://www.mocky.io/v2/5b52f5322f0000fb0a3bb672?mocky-delay=2000ms").subscribe((data:any)=>{
       this.datas = data.datas;
       this.show = true;
       console.log(data);
