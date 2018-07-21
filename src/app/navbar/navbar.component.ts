@@ -9,11 +9,11 @@ export class NavbarComponent implements OnInit {
   menus = [
     {
       name: "Home",
-      link: "#"
+      link: "/"
     },
     {
-      name: "Google",
-      link: "http://google.co.th"
+      name: "About",
+      link: "/about"
     },
     {
       name: "Drop down",
